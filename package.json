@@ -1,0 +1,58 @@
+{
+    "name": "appointment-scheduler",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": ".",
+    "dependencies": {
+        "@emailjs/browser": "^3.4.0",
+        "@emotion/react": "^11.8.2",
+        "@emotion/styled": "^11.8.1",
+        "@material-ui/core": "^4.12.3",
+        "@material-ui/icons": "^4.11.2",
+        "@mobiscroll/react": "https://npm.mobiscroll.com/@mobiscroll/react-trial/-/react-trial-5.15.2.tgz",
+        "@mui/icons-material": "^5.5.1",
+        "@mui/lab": "^5.0.0-alpha.73",
+        "@mui/material": "^5.5.1",
+        "@reduxjs/toolkit": "^1.8.0",
+        "axios": "^0.26.1",
+        "classnames": "^2.3.1",
+        "emailjs-com": "^3.2.0",
+        "firebase": "^9.6.9",
+        "gh-pages": "^3.2.3",
+        "material-ui": "^0.20.0",
+        "material-ui-search-bar": "^1.0.0",
+        "moment": "^2.20.1",
+        "prop-types": "^15.8.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-redux": "^7.2.6",
+        "react-router": "^6.2.2",
+        "react-router-dom": "^6.2.2",
+        "react-scripts": "^5.0.0",
+        "react-toastify": "^8.2.0",
+        "redux-devtools-extension": "^2.13.9",
+        "redux-logger": "^3.0.6",
+        "redux-persist": "^6.0.0",
+        "redux-saga": "^1.1.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
